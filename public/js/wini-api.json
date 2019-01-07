@@ -1,0 +1,218 @@
+{
+  "site_name": "wini default",
+  "company_name": "Wini Default",
+  "version": "v2",
+  "password": "",
+  "company_logo": "logo.png",
+  "favicon": "",
+
+  "address": "",
+  "postal_code": "",
+  "city": "",
+  "country": "",
+  "contact": "",
+  "company_email": "",
+
+  "newsletter": false,
+  "contact_form": true,
+  "testimony": true,
+  "inscription_form": true,
+  "user_can_register": false,
+
+  "color_primary": "#FFF",
+  "color_secondary": "#FFF",
+  "color_tertiary": "#FFF",
+  "color_body_bg": "#fff",
+  "type_header_family": "Google_Work+Sans_600_sans",
+  "type_header_base_size": "26px",
+  "type_base_family": "Google_Work+Sans_400_sans",
+  "type_base_size": "16px",
+  "type_bold_site_titles": false,
+
+  "share_facebook": true,
+  "share_twitter": true,
+  "share_pinterest": true,
+
+  "social_twitter_link": "",
+  "social_facebook_link": "",
+  "social_pinterest_link": "",
+  "social_instagram_link": "",
+  "social_tumblr_link": "",
+  "social_snapchat_link": "",
+  "social_youtube_link": "",
+  "social_vimeo_link": "",
+  "social_googleplus_link": "",
+
+  "menus": {
+      "main-menu":
+         [
+           {
+             "name": "accueil",
+             "page_id": "UiF3D",
+             "position": 1,
+             "title": "Accueil",
+             "children": [
+               {
+                 "name": "services",
+                 "page_id": "UiF3E",
+                 "position": 1,
+                 "title": "Services",
+                 "children": []
+               }
+             ]
+           },
+           {
+             "name": "contact-us",
+             "page_id": "YhUI",
+             "position": 2,
+             "title": "Contact Us",
+             "children": []
+           }
+         ]
+    },
+
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+        "align_logo": "left",
+        "logo": "logo.png",
+        "logo_max_width": "135",
+        "main_linklist": "main-menu",
+        "color_bg": "#162950",
+        "color_text": "#ffffff"
+      }
+    },
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "alignment": "left",
+        "text_size": "large"
+      }
+    },
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slideshow-0": {
+          "type": "image",
+          "settings": {
+            "image": "017e3df684264a7355a0d5218a302511.jpeg",
+            "alignment": "center"
+          }
+        },
+        "1492095993817": {
+          "type": "image",
+          "settings": {
+            "image": "017e3df684264a7355a0d5218a302511.jpeg",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slideshow-0",
+        "1492095993817"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": "6000",
+        "slideshow_height": "medium",
+        "text_size": "medium"
+      }
+    },
+    "article-template": {
+      "type": "article-template",
+      "settings": {
+        "grid": 3,
+        "row": 1
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0":{
+          "content": ""
+        },
+        "footer-1": {
+          "content": ""
+        },
+        "footer-2": {
+          "content": ""
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "footer-1",
+        "footer-2"
+      ],
+      "settings": {
+        "text_size": "large",
+        "background_color": "",
+        "background_image": "",
+        "footer_linklist": "main-menu",
+        "footer_linklist_two": "footer"
+      }
+    },
+    "sidebar": {
+      "type": "sidebar",
+      "settings": {
+
+      }
+    }
+  },
+  "pages": [
+    {
+      "page_id": "Uid90",
+      "title": "Home",
+      "content": {
+        "sections": {
+          "hero": {
+            "type": "hero",
+            "content": "",
+            "settings": {
+              "grid": 3,
+              "row": 1
+            }
+          },
+          "slideshow": {
+            "type": "slideshow",
+            "blocks": {
+              "slideshow-0": {
+
+              }
+            },
+            "settings": {
+
+            }
+          }
+        }
+      },
+      "cover_image": "",
+      "status": "publish",
+      "published_at": "",
+      "password": "",
+      "post_upcoming": false,
+      "settings": {
+        "grid": 2,
+        "row": 1,
+        "cover_image_block": "behind|left|right|top|bottom|left-between|right-between",
+        "has_sidebar": true
+      }
+    },
+    {
+      "page_id": "YeUi",
+      "title": "Blog",
+      "content": "<h1>This is the page content</h1>",
+      "cover_image": "",
+      "status": "publish",
+      "published_at": "",
+      "password": "",
+      "post_upcoming": false,
+      "settings": {
+        "grid": 2,
+        "row": 1,
+        "cover_image_block": "behind|left|right|top|bottom|left-between|right-between",
+        "has_sidebar": true
+      }
+    }
+  ]
+}
